@@ -65,7 +65,7 @@ class Test(App):
         self.img = "atlas://baronIdle/myatlas/baron_idle"
         self.maxSprite = 46
 
-    def animeSprite(self,inter,maxSprite,*args):
+    def animeSprite(self,inter,*args):
         #animation sprite
         self.temps = self.temps + 1
         if self.temps>inter:
