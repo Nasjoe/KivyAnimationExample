@@ -29,6 +29,10 @@ class Test(App):
         self.title = 'manaRpg'
         self.content = FloatLayout(size_hint=(None, None),size=(ex, ey))
 
+        # self.backimg = Image(source='bkgimg2.jpg')
+        # self.backimg = Image(source='bkgimg2.jpg',norm_image=True)
+        self.backimg = Image(source='bkgimg2.jpg')
+
         class Personnage:
             def NewEtat(self,etat):
                 self.img = self.__dict__[etat]
