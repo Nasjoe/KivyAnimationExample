@@ -122,7 +122,7 @@ class Test(App):
 
 
     def courirD(self, *args):
-        # pour mettre le personnage sur le dernier Zindex :
+        # pour mettre le personnage sur le dernier Zindex, on le retire et on le rajoute. Seule solution trouvée sur les forums... :
         self.content.remove_widget(self.spriteD)
         self.content.add_widget(self.spriteD)
 
